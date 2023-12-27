@@ -1,0 +1,47 @@
+<header class="">
+  <div class="flex justify-between gap-5 mr-4 ">
+    <!-- <div class="">
+      <app-sidebar></app-sidebar>
+    </div> -->
+    <!-- <div class="px-4 pt-4 ">
+      <fa-icon [icon]="baricon" class="text-[20px] text-orange-300"></fa-icon>
+    </div> -->
+    <div class="pt-4 md:mx-auto">
+      <ul class="flex justify-end gap-2 text-xs font-light sm:text-base sm:gap-10 gorw">
+        <li
+          class="hover:text-orange-300 hover:underline hover:underline-offset-8"
+        >
+          Ready
+        </li>
+        <li
+          class="hover:text-orange-300 hover:underline hover:underline-offset-8"
+        >
+          Lost
+        </li>
+        <li
+          class="hover:text-orange-300 hover:underline hover:underline-offset-8"
+        >
+          Damaged
+        </li>
+        <li
+          class="hover:text-orange-300 hover:underline hover:underline-offset-8"
+        >
+          Borrowed
+        </li>
+      </ul>
+    </div>
+    <div class="flex items-start justify-end flex-none gap-1 pt-4 mr-4 text-center ">
+      <fa-icon
+        [icon]="profileIcon"
+        class="text-[20px] border pt-1 px-1 border-orange-300 text-orange-300 text-center items-center rounded-md"
+      ></fa-icon>
+      <ul class="text-left ">
+        <li class="text-[10px] font-bold leading-[8px]">user name</li>
+        <li class="text-[10px]">enter user email</li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div>
+  <app-book-list class="items-start text-left"></app-book-list>
+</div>
